@@ -20,7 +20,7 @@ const Banner = () => {
             software—all in one place. Start creating faster today.
           </p>
 
-          <p className="mt-2 text-[#7B8798] text-[17px]">Explore Products</p>
+          <p className="mt-2 text-[#7B8798] text-[18px]">Explore Products</p>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <button className="h-[56px] px-8 rounded-full text-white font-semibold bg-gradient-to-r from-[#5B3DF5] to-[#A020F0] hover:opacity-95">
