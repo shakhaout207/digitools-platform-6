@@ -1,3 +1,5 @@
+import emptyCart from "../assets/empty-cart.jpg";
+
 const Cart = ({ cart, removeFromCart, clearCart }) => {
   const total = cart.reduce((sum, item) => sum + item.price, 0);
 
@@ -6,8 +8,15 @@ const Cart = ({ cart, removeFromCart, clearCart }) => {
       <h3 className="text-[18px] font-bold text-[#1F2738] mb-4">Your Cart</h3>
 
       {cart.length === 0 ? (
-        <div className="text-center py-10 text-[#7B8798]">
-          Your cart is empty.
+        <div className="py-10 flex flex-col items-center justify-center text-center">
+          <img
+            src={emptyCart}
+            alt="Empty cart"
+            className="w-[220px] md:w-[280px] object-contain mb-6"
+          />
+          <h2 className="text-[34px] md:text-[44px] font-bold text-[#111827] leading-tight">
+            Your Cart is empty
+          </h2>
         </div>
       ) : (
         <>
