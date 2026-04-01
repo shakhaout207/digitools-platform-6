@@ -45,7 +45,7 @@ const Navbar = ({ cartCount }) => {
             <span>Cart ({cartCount})</span>
           </div>
 
-          <button className="px-5 py-2.5 rounded-full text-white text-[14px] font-semibold bg-gradient-to-r from-[#5B3DF5] to-[#A020F0] hover:opacity-95">
+          <button className="px-5 py-2 rounded-full text-white text-[14px] font-semibold bg-gradient-to-r from-[#5B3DF5] to-[#A020F0] hover:opacity-95">
             Get Started
           </button>
         </div>
