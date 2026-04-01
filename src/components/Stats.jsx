@@ -7,7 +7,7 @@ const Stats = () => {
 
   return (
     <section className="bg-gradient-to-r from-[#5636F3] to-[#B012F0]">
-      <div className="max-w-[1180px] mx-auto px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 text-center text-white py-10">
+      <div className="max-w-[1180px] mx-auto px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 text-center text-white py-12">
         {items.map((item, index) => (
           <div
             key={item.label}
