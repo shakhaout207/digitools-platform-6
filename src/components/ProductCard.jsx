@@ -12,7 +12,7 @@ const ProductCard = ({ product, addToCart }) => {
           <img
             src={product.image}
             alt={product.name}
-            className="w-7 h-7 object-contain"
+            className="w-8 h-8 object-contain"
           />
         </div>
 
